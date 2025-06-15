@@ -1,0 +1,98 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: "Jua", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.container {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start;
+  text-align: center;
+  padding: 2rem;
+}
+
+.hero {
+  background-image: url('../images/cold-noodles.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #96f693;
+  font-size: 1rem;
+  font-family: 'Sunflower', sans-serif;
+}
+
+.title {
+   font-family: "Jua", sans-serif;
+  font-size: 7rem;
+  color: #68ecf3;
+}
+
+
+.menu {
+  background-image: url('../images/kong-guksu.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #f7f7f2;
+  font-family: 'Sunflower', sans-serif;
+}
+
+
+
+.menu h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #222222;
+  font-family: "Jua", sans-serif;
+}
+
+
+.menu ul {
+  list-style: none;
+  font-size: 1.5rem;
+  line-height: 2.2;
+   color: #f511f1;
+}
+
+.contact{
+  background-color: #e0e7b1;
+  color: #151515;
+  font-family: "Jua", sans-serif;
+}
+
+
+
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-family: "Jua", sans-serif;
+}
+
+
+.contact p {
+  font-size: 2rem;
+  margin: 0.3rem 0;
+   font-family: "Jua", sans-serif;
+
+}
+
+.contact i {
+  margin-right: 8px;
+  color: #f92bf9; /* 아이콘 색상 */
+}
